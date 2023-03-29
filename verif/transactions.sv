@@ -5,11 +5,11 @@
 import alu_pkg::*;
 
 // transactions class
-    class alu_transactions #(parameter int DATA_WIDTH = 8, parameter int OUT_WIDTH = DATA_WIDTH * 2);
+    class alu_transactions #(parameter int DATA_WIDTH = 8, parameter OUT_WIDTH = DATA_WIDTH * 2);
         rand bit [DATA_WIDTH-1:0] a;
         rand bit [DATA_WIDTH-1:0] b;
-        rand bit [alu_pkg::SELSIZE-1:0] op;
-        bit [OUT_WIDTH-1:0] result;
+        rand bit [alu_pkg::OP_WIDTH-1:0] op;
+        bit [OUT_WIDTH-1:0] out;
         // constraint on the random value of op
         constraint op_c {op inside {[0:10]};}
 
