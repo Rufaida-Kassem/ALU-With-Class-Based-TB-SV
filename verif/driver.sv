@@ -20,7 +20,7 @@
                     #10
                     trans_alu.randomize();
                     vif.a <= trans_alu.a;
-
+                    // TODO::complete the code here
 
                     $display("A = %d, C = %d, ALU_FUN = %d",vif.a, vif.b, vif.op);
                 end
