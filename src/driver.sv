@@ -5,7 +5,7 @@
 
 // create driver class
     class driver_alu;
-        transaction_all trans_alu;
+        transaction_alu trans_alu;
         virtual interface_alu vif;
 
         function new(virtual interface_alu vif);
@@ -20,8 +20,8 @@
                     #10
                     trans_alu.randomize();
                     vif.a <= trans_alu.a;
-                    // TODO::complete the code here
-
+                    vif.b <= trans_alu.b;
+                    vif.op <= trans_alu.op;
                     $display("A = %d, C = %d, ALU_FUN = %d",vif.a, vif.b, vif.op);
                 end
     endclass //driver_alu
