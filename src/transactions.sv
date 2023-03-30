@@ -1,7 +1,7 @@
 `ifndef TRANSACTIONS
 `define TRANSACTIONS
 
-// import the alu package from alu.sv in src folder
+// import the alu package from alu.sv
 import alu_pkg::*;
 
 // transactions class
