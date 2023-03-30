@@ -16,3 +16,8 @@ The focus is on the *verification environment*
 - XOR
 
 ![image](https://user-images.githubusercontent.com/68002137/228682038-42de6d50-ec8f-4082-950b-a1286ccc121a.png)
+
+We have 
+- `ALU`, `ALU testbench`, `ALU top` modules.
+- `monitor`, `score board`, `transactions`, `driver` classes.
+- `alu interface` interface.
