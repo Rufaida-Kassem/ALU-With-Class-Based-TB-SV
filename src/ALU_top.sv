@@ -8,8 +8,8 @@ module top_alu (interface_alu infc);
 
     initial begin
         driver_a = new(infc);
-        monitor_a = new(infc);
         score_board_a = new();
+        monitor_a = new(infc, score_board_a);
         fork
         monitor_a.monitor();
         driver_a.driver();

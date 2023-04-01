@@ -14,8 +14,8 @@ input wire logic [DATA_WIDTH-1:0]
 a,
 input wire logic [DATA_WIDTH-1:0]
 b,
-input wire logic [alu_pkg::OUT_WIDTH-1:0] op,
-output wire logic [OUT_WIDTH-1:0]
+input wire logic [alu_pkg::OP_WIDTH-1:0] op,
+output logic [OUT_WIDTH-1:0]
 out
 );
 
@@ -36,3 +36,4 @@ alu_pkg::NOT: out = ~a;    // not
 alu_pkg::XOR: out = a ^ b;  // xor
 endcase
 end
+endmodule
