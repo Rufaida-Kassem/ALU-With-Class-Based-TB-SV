@@ -1,0 +1,200 @@
+TEST CASE no 1 PASSED:
+--> inputs: 0, 0,	operation_code: 0,	EXPECTED OUTPUT:             0	EQUALES	output 0
+TEST CASE no 2 PASSED:
+--> inputs: 1e, ea,	operation_code: 0,	EXPECTED OUTPUT:             0	EQUALES	output 0
+TEST CASE no 3 PASSED:
+--> inputs: 4e, 24,	operation_code: 4,	EXPECTED OUTPUT:             2	EQUALES	output 2
+TEST CASE no 4 PASSED:
+--> inputs: 30, 80,	operation_code: 8,	EXPECTED OUTPUT:             b0	EQUALES	output b0
+TEST CASE no 5 PASSED:
+--> inputs: 26, 2d,	operation_code: 5,	EXPECTED OUTPUT:             4c	EQUALES	output 4c
+TEST CASE no 6 PASSED:
+--> inputs: 2c, 25,	operation_code: 7,	EXPECTED OUTPUT:             24	EQUALES	output 24
+TEST CASE no 7 PASSED:
+--> inputs: 29, fb,	operation_code: 1,	EXPECTED OUTPUT:             124	EQUALES	output 124
+TEST CASE no 8 PASSED:
+--> inputs: 5b, 74,	operation_code: 6,	EXPECTED OUTPUT:             2d	EQUALES	output 2d
+TEST CASE no 9 PASSED:
+--> inputs: 26, c3,	operation_code: 2,	EXPECTED OUTPUT:             ff63	EQUALES	output ff63
+TEST CASE no a PASSED:
+--> inputs: 7f, 9b,	operation_code: 1,	EXPECTED OUTPUT:             11a	EQUALES	output 11a
+TEST CASE no b PASSED:
+--> inputs: 1d, c8,	operation_code: 6,	EXPECTED OUTPUT:             e	EQUALES	output e
+TEST CASE no c PASSED:
+--> inputs: ff, a9,	operation_code: 4,	EXPECTED OUTPUT:             1	EQUALES	output 1
+TEST CASE no d PASSED:
+--> inputs: 7c, 2e,	operation_code: 2,	EXPECTED OUTPUT:             4e	EQUALES	output 4e
+TEST CASE no e PASSED:
+--> inputs: 8e, bd,	operation_code: 1,	EXPECTED OUTPUT:             14b	EQUALES	output 14b
+TEST CASE no f PASSED:
+--> inputs: 20, 62,	operation_code: a,	EXPECTED OUTPUT:             42	EQUALES	output 42
+TEST CASE no 10 PASSED:
+--> inputs: 71, 4d,	operation_code: 3,	EXPECTED OUTPUT:             21fd	EQUALES	output 21fd
+TEST CASE no 11 PASSED:
+--> inputs: 5b, cd,	operation_code: 0,	EXPECTED OUTPUT:             0	EQUALES	output 0
+TEST CASE no 12 PASSED:
+--> inputs: 3d, 86,	operation_code: 9,	EXPECTED OUTPUT:             ffc2	EQUALES	output ffc2
+TEST CASE no 13 PASSED:
+--> inputs: 71, 31,	operation_code: 8,	EXPECTED OUTPUT:             71	EQUALES	output 71
+TEST CASE no 14 PASSED:
+--> inputs: b1, f6,	operation_code: 2,	EXPECTED OUTPUT:             ffbb	EQUALES	output ffbb
+TEST CASE no 15 PASSED:
+--> inputs: d4, 23,	operation_code: 7,	EXPECTED OUTPUT:             0	EQUALES	output 0
+TEST CASE no 16 PASSED:
+--> inputs: 2f, 6e,	operation_code: a,	EXPECTED OUTPUT:             41	EQUALES	output 41
+TEST CASE no 17 PASSED:
+--> inputs: 31, 34,	operation_code: 6,	EXPECTED OUTPUT:             18	EQUALES	output 18
+TEST CASE no 18 PASSED:
+--> inputs: 83, 8b,	operation_code: 9,	EXPECTED OUTPUT:             ff7c	EQUALES	output ff7c
+TEST CASE no 19 PASSED:
+--> inputs: 60, d2,	operation_code: 6,	EXPECTED OUTPUT:             30	EQUALES	output 30
+TEST CASE no 1a PASSED:
+--> inputs: 28, 66,	operation_code: 2,	EXPECTED OUTPUT:             ffc2	EQUALES	output ffc2
+TEST CASE no 1b PASSED:
+--> inputs: 2f, 41,	operation_code: 9,	EXPECTED OUTPUT:             ffd0	EQUALES	output ffd0
+TEST CASE no 1c PASSED:
+--> inputs: b0, 2f,	operation_code: 9,	EXPECTED OUTPUT:             ff4f	EQUALES	output ff4f
+TEST CASE no 1d PASSED:
+--> inputs: 22, 90,	operation_code: 8,	EXPECTED OUTPUT:             b2	EQUALES	output b2
+TEST CASE no 1e PASSED:
+--> inputs: fe, 0,	operation_code: 3,	EXPECTED OUTPUT:             0	EQUALES	output 0
+TEST CASE no 1f PASSED:
+--> inputs: e8, 2e,	operation_code: 8,	EXPECTED OUTPUT:             ee	EQUALES	output ee
+TEST CASE no 20 PASSED:
+--> inputs: c3, ec,	operation_code: 2,	EXPECTED OUTPUT:             ffd7	EQUALES	output ffd7
+TEST CASE no 21 PASSED:
+--> inputs: b8, 27,	operation_code: 0,	EXPECTED OUTPUT:             0	EQUALES	output 0
+TEST CASE no 22 PASSED:
+--> inputs: 73, 60,	operation_code: a,	EXPECTED OUTPUT:             13	EQUALES	output 13
+TEST CASE no 23 PASSED:
+--> inputs: bb, 11,	operation_code: 9,	EXPECTED OUTPUT:             ff44	EQUALES	output ff44
+TEST CASE no 24 PASSED:
+--> inputs: de, 9a,	operation_code: 4,	EXPECTED OUTPUT:             1	EQUALES	output 1
+TEST CASE no 25 PASSED:
+--> inputs: 95, a1,	operation_code: 0,	EXPECTED OUTPUT:             0	EQUALES	output 0
+TEST CASE no 26 PASSED:
+--> inputs: d5, 2,	operation_code: 2,	EXPECTED OUTPUT:             d3	EQUALES	output d3
+TEST CASE no 27 PASSED:
+--> inputs: dd, cd,	operation_code: 8,	EXPECTED OUTPUT:             dd	EQUALES	output dd
+TEST CASE no 28 PASSED:
+--> inputs: 5, 42,	operation_code: a,	EXPECTED OUTPUT:             47	EQUALES	output 47
+TEST CASE no 29 PASSED:
+--> inputs: 35, 62,	operation_code: 5,	EXPECTED OUTPUT:             6a	EQUALES	output 6a
+TEST CASE no 2a PASSED:
+--> inputs: f5, 33,	operation_code: 9,	EXPECTED OUTPUT:             ff0a	EQUALES	output ff0a
+TEST CASE no 2b PASSED:
+--> inputs: 45, 67,	operation_code: 0,	EXPECTED OUTPUT:             0	EQUALES	output 0
+TEST CASE no 2c PASSED:
+--> inputs: a3, df,	operation_code: 4,	EXPECTED OUTPUT:             0	EQUALES	output 0
+TEST CASE no 2d PASSED:
+--> inputs: 2f, b8,	operation_code: 8,	EXPECTED OUTPUT:             bf	EQUALES	output bf
+TEST CASE no 2e PASSED:
+--> inputs: 9d, 37,	operation_code: 3,	EXPECTED OUTPUT:             21bb	EQUALES	output 21bb
+TEST CASE no 2f PASSED:
+--> inputs: c8, 82,	operation_code: 7,	EXPECTED OUTPUT:             80	EQUALES	output 80
+TEST CASE no 30 PASSED:
+--> inputs: f9, 44,	operation_code: 6,	EXPECTED OUTPUT:             7c	EQUALES	output 7c
+TEST CASE no 31 PASSED:
+--> inputs: 41, 29,	operation_code: 9,	EXPECTED OUTPUT:             ffbe	EQUALES	output ffbe
+TEST CASE no 32 PASSED:
+--> inputs: 7a, c9,	operation_code: 5,	EXPECTED OUTPUT:             f4	EQUALES	output f4
+TEST CASE no 33 PASSED:
+--> inputs: 9a, db,	operation_code: 3,	EXPECTED OUTPUT:             83be	EQUALES	output 83be
+TEST CASE no 34 PASSED:
+--> inputs: be, 83,	operation_code: 6,	EXPECTED OUTPUT:             5f	EQUALES	output 5f
+TEST CASE no 35 PASSED:
+--> inputs: d3, ce,	operation_code: 1,	EXPECTED OUTPUT:             1a1	EQUALES	output 1a1
+TEST CASE no 36 PASSED:
+--> inputs: a8, 2e,	operation_code: 9,	EXPECTED OUTPUT:             ff57	EQUALES	output ff57
+TEST CASE no 37 PASSED:
+--> inputs: f1, 4,	operation_code: 1,	EXPECTED OUTPUT:             f5	EQUALES	output f5
+TEST CASE no 38 PASSED:
+--> inputs: ce, ac,	operation_code: 0,	EXPECTED OUTPUT:             0	EQUALES	output 0
+TEST CASE no 39 PASSED:
+--> inputs: 8b, 11,	operation_code: a,	EXPECTED OUTPUT:             9a	EQUALES	output 9a
+TEST CASE no 3a PASSED:
+--> inputs: aa, c7,	operation_code: 6,	EXPECTED OUTPUT:             55	EQUALES	output 55
+TEST CASE no 3b PASSED:
+--> inputs: e6, ae,	operation_code: 6,	EXPECTED OUTPUT:             73	EQUALES	output 73
+TEST CASE no 3c PASSED:
+--> inputs: 7b, c6,	operation_code: a,	EXPECTED OUTPUT:             bd	EQUALES	output bd
+TEST CASE no 3d PASSED:
+--> inputs: a2, 7f,	operation_code: 4,	EXPECTED OUTPUT:             1	EQUALES	output 1
+TEST CASE no 3e PASSED:
+--> inputs: e, 7b,	operation_code: 7,	EXPECTED OUTPUT:             a	EQUALES	output a
+TEST CASE no 3f PASSED:
+--> inputs: 44, b7,	operation_code: 5,	EXPECTED OUTPUT:             88	EQUALES	output 88
+TEST CASE no 40 PASSED:
+--> inputs: aa, d0,	operation_code: 8,	EXPECTED OUTPUT:             fa	EQUALES	output fa
+TEST CASE no 41 PASSED:
+--> inputs: f1, aa,	operation_code: 5,	EXPECTED OUTPUT:             1e2	EQUALES	output 1e2
+TEST CASE no 42 PASSED:
+--> inputs: ce, 30,	operation_code: 3,	EXPECTED OUTPUT:             26a0	EQUALES	output 26a0
+TEST CASE no 43 PASSED:
+--> inputs: 2, 4,	operation_code: a,	EXPECTED OUTPUT:             6	EQUALES	output 6
+TEST CASE no 44 PASSED:
+--> inputs: ad, 5c,	operation_code: 7,	EXPECTED OUTPUT:             c	EQUALES	output c
+TEST CASE no 45 PASSED:
+--> inputs: a3, 61,	operation_code: 0,	EXPECTED OUTPUT:             0	EQUALES	output 0
+TEST CASE no 46 PASSED:
+--> inputs: 98, 5f,	operation_code: 8,	EXPECTED OUTPUT:             df	EQUALES	output df
+TEST CASE no 47 PASSED:
+--> inputs: c4, 8b,	operation_code: 4,	EXPECTED OUTPUT:             1	EQUALES	output 1
+TEST CASE no 48 PASSED:
+--> inputs: 2c, bb,	operation_code: 6,	EXPECTED OUTPUT:             16	EQUALES	output 16
+TEST CASE no 49 PASSED:
+--> inputs: 66, 13,	operation_code: 4,	EXPECTED OUTPUT:             5	EQUALES	output 5
+TEST CASE no 4a PASSED:
+--> inputs: 29, 59,	operation_code: a,	EXPECTED OUTPUT:             70	EQUALES	output 70
+TEST CASE no 4b PASSED:
+--> inputs: 74, b9,	operation_code: 9,	EXPECTED OUTPUT:             ff8b	EQUALES	output ff8b
+TEST CASE no 4c PASSED:
+--> inputs: c4, 90,	operation_code: 7,	EXPECTED OUTPUT:             80	EQUALES	output 80
+TEST CASE no 4d PASSED:
+--> inputs: b0, 94,	operation_code: 8,	EXPECTED OUTPUT:             b4	EQUALES	output b4
+TEST CASE no 4e PASSED:
+--> inputs: 34, d6,	operation_code: 0,	EXPECTED OUTPUT:             0	EQUALES	output 0
+TEST CASE no 4f PASSED:
+--> inputs: 9, 7a,	operation_code: 6,	EXPECTED OUTPUT:             4	EQUALES	output 4
+TEST CASE no 50 PASSED:
+--> inputs: 86, 41,	operation_code: 3,	EXPECTED OUTPUT:             2206	EQUALES	output 2206
+TEST CASE no 51 PASSED:
+--> inputs: 6d, 32,	operation_code: 0,	EXPECTED OUTPUT:             0	EQUALES	output 0
+TEST CASE no 52 PASSED:
+--> inputs: 32, 43,	operation_code: 8,	EXPECTED OUTPUT:             73	EQUALES	output 73
+TEST CASE no 53 PASSED:
+--> inputs: 3b, 7d,	operation_code: 2,	EXPECTED OUTPUT:             ffbe	EQUALES	output ffbe
+TEST CASE no 54 PASSED:
+--> inputs: 8, 2f,	operation_code: 6,	EXPECTED OUTPUT:             4	EQUALES	output 4
+TEST CASE no 55 PASSED:
+--> inputs: 8e, f1,	operation_code: 4,	EXPECTED OUTPUT:             0	EQUALES	output 0
+TEST CASE no 56 PASSED:
+--> inputs: eb, cc,	operation_code: 8,	EXPECTED OUTPUT:             ef	EQUALES	output ef
+TEST CASE no 57 PASSED:
+--> inputs: 1b, 7f,	operation_code: 7,	EXPECTED OUTPUT:             1b	EQUALES	output 1b
+TEST CASE no 58 PASSED:
+--> inputs: 25, 8d,	operation_code: 4,	EXPECTED OUTPUT:             0	EQUALES	output 0
+TEST CASE no 59 PASSED:
+--> inputs: 7e, 3a,	operation_code: 1,	EXPECTED OUTPUT:             b8	EQUALES	output b8
+TEST CASE no 5a PASSED:
+--> inputs: b7, 7a,	operation_code: 6,	EXPECTED OUTPUT:             5b	EQUALES	output 5b
+TEST CASE no 5b PASSED:
+--> inputs: 12, ce,	operation_code: 6,	EXPECTED OUTPUT:             9	EQUALES	output 9
+TEST CASE no 5c PASSED:
+--> inputs: 2f, c4,	operation_code: 2,	EXPECTED OUTPUT:             ff6b	EQUALES	output ff6b
+TEST CASE no 5d PASSED:
+--> inputs: 15, 26,	operation_code: a,	EXPECTED OUTPUT:             33	EQUALES	output 33
+TEST CASE no 5e PASSED:
+--> inputs: 2d, e0,	operation_code: a,	EXPECTED OUTPUT:             cd	EQUALES	output cd
+TEST CASE no 5f PASSED:
+--> inputs: 75, f1,	operation_code: 5,	EXPECTED OUTPUT:             ea	EQUALES	output ea
+TEST CASE no 60 PASSED:
+--> inputs: b3, 27,	operation_code: 4,	EXPECTED OUTPUT:             4	EQUALES	output 4
+TEST CASE no 61 PASSED:
+--> inputs: f1, 1f,	operation_code: 9,	EXPECTED OUTPUT:             ff0e	EQUALES	output ff0e
+TEST CASE no 62 PASSED:
+--> inputs: 7e, dd,	operation_code: 9,	EXPECTED OUTPUT:             ff81	EQUALES	output ff81
+TEST CASE no 63 PASSED:
+--> inputs: db, 9c,	operation_code: 9,	EXPECTED OUTPUT:             ff24	EQUALES	output ff24
+TEST CASE no 64 PASSED:
+--> inputs: f8, 47,	operation_code: 6,	EXPECTED OUTPUT:             7c	EQUALES	output 7c
