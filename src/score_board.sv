@@ -9,7 +9,7 @@ import alu_pkg::*;
         // declare a static counter to count the number of transactions
         static int counter = 0;
         function new();
-            output_file = $fopen("..\\output\\output.txt", "w");
+            output_file = $fopen("../output/output.txt", "w");
             if (output_file == 0)
                 $error("Unable to open output.txt");
         endfunction
