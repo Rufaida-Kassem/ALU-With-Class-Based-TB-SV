@@ -3,17 +3,17 @@ A verification environment for an ALU using class-based testbench in `Systemveri
 The focus is on the *verification environment*
 
 #### Supported ALU operations:
-- NOP
-- ADD
-- SUB
-- MUL
-- DIV
-- SL
-- SR
-- AND
-- OR
-- NOT
-- XOR
+- NOP (0)
+- ADD (1)
+- SUB (2)
+- MUL (3)
+- DIV (4)
+- SL  (5)
+- SR  (6)
+- AND (7)
+- OR  (8)
+- NOT (9)
+- XOR (a)
 
 ![image](https://user-images.githubusercontent.com/68002137/228682038-42de6d50-ec8f-4082-950b-a1286ccc121a.png)
 
@@ -21,3 +21,5 @@ We have
 - `ALU`, `ALU testbench`, `ALU top` modules.
 - `monitor`, `score board`, `transactions`, `driver` classes.
 - `alu interface` interface.
+
+#### Note: all numbers in output file are in hexa-decimal format
