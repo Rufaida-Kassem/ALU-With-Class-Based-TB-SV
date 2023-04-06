@@ -22,7 +22,7 @@ We have
 - `monitor`, `score board`, `transactions`, `driver` classes.
 - `alu interface` interface.
 
-#### Note: all numbers in output file are in hexa-decimal format
+### Note: all numbers in output file are in hexa-decimal format
 
-### Number of test cases here are 100, you can change the repeat(100) in driver.sv
-### and change the "counter = 100" in score_board.sv
+#### Number of test cases here are 100, you can change the repeat(100) in driver.sv
+#### and change the "counter = 100" in score_board.sv
