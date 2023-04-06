@@ -22,7 +22,6 @@
                     vif.a <= trans_alu.a;
                     vif.b <= trans_alu.b;
                     vif.op <= trans_alu.op;
-                    $display("A = %d, C = %d, ALU_FUN = %d",vif.a, vif.b, vif.op);
                 end
             endtask //driver()
     endclass //driver_alu

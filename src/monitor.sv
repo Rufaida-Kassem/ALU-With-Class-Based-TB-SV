@@ -20,6 +20,7 @@ class monitor_alu;
             trans_a.a = vif.a;
             trans_a.b = vif.b;
             trans_a.op = vif.op;
+            trans_a.out = vif.out;
             sb_a.post_input(trans_a);
         end
     endtask //monitor()

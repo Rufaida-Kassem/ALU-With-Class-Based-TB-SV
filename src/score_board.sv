@@ -4,6 +4,16 @@
 import alu_pkg::*;
 // score board class
     class score_board_alu;
+        // define output.txt as an output file
+        int output_file;
+        // declare a static counter to count the number of transactions
+        static int counter = 0;
+        function new();
+            output_file = $fopen("..\\output\\output.txt", "w");
+            if (output_file == 0)
+                $error("Unable to open output.txt");
+        endfunction
+
         task post_input(transaction_alu trans_a);
         logic [15:0] expected_out;
         // case statement to check alu operations
@@ -39,14 +49,28 @@ import alu_pkg::*;
             expected_out = 16'b0;
         endcase
 
-    // compare the expected output expected_out with the actual output from the trans_a.out and display the result
-    if (expected_out == trans_a.out)
-        $display("TEST CASE PASSED: %0h, %0h, EXPECTED OUTPUT: \
-                %0h EQUALES output %0h", trans_a.a, trans_a.b, expected_out, trans_a.out);
-    else 
-        $display("ERROR IN ALU: %0h, %0h, %0h, EXPECTED OUTPUT: \
-        %0h while output is %0h", trans_a.a, trans_a.b,trans_a.op, expected_out, trans_a.out);
+        // increment the counter
+        counter = counter + 1;
+    // if the output file is open
+    if (counter <= 100)
+    begin
+        // compare the expected output expected_out with the actual output from the trans_a.out and display the result
+        if (expected_out == trans_a.out)
+            // write the result to output_file
+            $fwrite(output_file, "TEST CASE no %0h PASSED:\n--> inputs: %0h, %0h,\toperation_code: %0h,\tEXPECTED OUTPUT: \
+            %0h\tEQUALES\toutput %0h\n", counter, trans_a.a, trans_a.b, trans_a.op, expected_out, trans_a.out);
+        else 
+            $fwrite(output_file, "!!:::ERROR IN ALU:::!! TEST CASE no %0h FAILED:\n--> inputs: %0h, %0h,\toperation_code: %0h,\tEXPECTED OUTPUT: \
+            %0h\twhile output is %0h\n", counter, trans_a.a, trans_a.b, trans_a.op, expected_out, trans_a.out);
+
+        // close the output file if the counter reaches 100
+        if (counter == 100)
+            close_file();
+    end
     endtask // post_input
+    function void close_file();
+        $fclose(output_file);
+    endfunction // close_file
 
     endclass // score_board_alu
 `endif
